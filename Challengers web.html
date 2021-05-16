@@ -7,6 +7,8 @@
         font-size:70px;
         text-align: center;
          background-position-y:100px ;
+         background-position-x:20px;
+         width:auto;
     }
     body{
         
@@ -22,6 +24,9 @@
       background-size: 150px;
     padding:100px;
     width: fit-content;
+    position:relative;
+    bottom: 130px;
+    right:30px;
 }
 h1{
     width: fit-content;
@@ -32,9 +37,9 @@ h1{
   border-style: solid;
   border-width:medium;
   border-radius: 12px;
+  font-family:Redressed;
+src:url(https://fonts.google.com/specimen/Redressed?preview.text_type=custom);
   
-  
-
     
 }
 #middle{
@@ -51,6 +56,9 @@ h1{
   border-width: medium;
   text-shadow: 2px 2px 7px grey;
   border-radius: 12px;
+  position:relative;
+  left:660px ;
+  bottom:350px;
   
 }
 
@@ -60,6 +68,21 @@ h1{
   border-width: medium;
   text-shadow: 2px 2px 7px grey;
   border-radius: 12px;
+  position:relative;
+  left:900px ;
+  bottom:640px;
+ }
+ #button{
+    position:relative;
+    left:1477px;
+    bottom:83px;
+     background-repeat: no-repeat; 
+  background-position:center ;
+  background-image: url("https://img-premium.flaticon.com/png/512/126/126472.png?token=exp=1621065005~hmac=d1cd91f7161fb3d11240ca17f27cc111");
+  padding: 13px;
+  background-size: 25px;
+  cursor: pointer;
+  width: fit-content;
  }
 
   
@@ -69,12 +92,16 @@ h1{
 <title></title>
 </head>
 <body>
-    <div class="logo"> </div>
     <div id="head">Team Challengers</div>
+    <button id="button">
+    </button>
+    
+    <div class="logo"> </div>
+    
    
     
     <div id="middle"></div>
-    <h1>Invent</h1>
+    <h1 style="position: relative;bottom:450px;left:470px;">Invent</h1>
     <h1 id="centre">Innovate</h1>
     <h1 id="bala">Improvise</h1>
 </body>
