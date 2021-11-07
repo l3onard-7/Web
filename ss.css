@@ -1,13 +1,15 @@
 ul {
     list-style-type:none;
     margin:0;
-    padding: 0;
+   
   overflow: visible;
   background-color: rgb(46, 46, 46);
-  border-radius: 5%;
+ 
  position:fixed;
+ right: 0%;
   width: 100%;
   z-index: 1;
+  top: 0%;
 }
 
 
@@ -15,18 +17,19 @@ ul {
   display: block;
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 14px 16px;
+  padding: 1%;
+  
   text-decoration: none;
   float: right;
   font-family: 'Italianno', cursive;
-  font-size: 25px;
-
+  font-size: 150%;
  
 }
 .nav{
     width: 100%;
     position: fixed;
     margin: 0;
+    
 }
 
 li :hover {
