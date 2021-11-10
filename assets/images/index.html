@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA mamouna</title>
+    <style>
+        html,body{
+            margin: 0px;
+        }
+        .container{
+            background-image: url(file:///home/urvy/images2/artur-aldyrkhanov-QksucEmALuQ-unsplash.jpg);
+
+            background-size: 2000px;
+            
+            background-position: top;
+            height: 1000px;
+            width: 1840px;
+            
+            
+            
+        }
+        .jug{
+            font-size: 28px;
+            font-style: oblique;
+            font-family: Arial;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        .run{
+            font-size: 15px;
+            text-align: center;
+            color: white;
+            font-family: arial;
+            font-style: oblique;
+            
+        }
+        .ant{
+            text-align: left;
+            font-size: 20px;
+            font-family: arial;
+            color: white;
+            font-style: italic;
+            padding-top: 30px;
+            padding-left: 40px;
+        }
+        .gigi{
+            float: right;
+            font-size: 20px;
+            color: white;
+            padding-top: 1px;
+            font-family: arial;
+            font-style: italic;
+            padding-right: 60px;
+        }
+        .egg{
+            text-align: center;
+            font-size: 40px;
+            color: white;
+            font-family: arial;
+            font-style: oblique;
+            margin-top: 550px;
+        }
+        .man{
+            float: inline-start;
+            height: 650px;
+             padding-top: 50px;
+             padding-left: 50px;
+             padding-right: 10px;
+
+        }
+    
+        
+        .fun{
+            color:black;
+            font-size: 20px;
+            padding: 30px;
+            border-bottom: 1px solid gray;
+            text-align: center;
+            font-style: oblique;
+            font-family: arial;
+            background-color: white;
+        }
+        .hen{
+            color: maroon;
+            font-size: 50px;
+            font-family: arial;
+            float: left;
+            margin-top: 40px;
+            margin-left: 300px;
+            font-style: italic;
+            padding: 5px;
+        
+        }
+        .yo{
+            color: maroon;
+            font-size: 20px;
+            font-style: oblique;
+            float: left;
+            margin-left: 200px ;
+
+        }
+        .key{
+            color: black;
+            font-size: 15px;
+            font-style: italic;
+            padding-left: 20px;
+            text-align: justify;
+            
+            margin-left: 150px;
+            padding-left: 20px;
+            margin-top: 30px;
+        }
+        .olive1{
+            color: maroon;
+            font-size: 50px;
+            font-style: oblique;
+            font-family: arial;
+            padding: 0px;
+            margin-top: 120px;
+            margin-left: 80px;
+        }
+        .olive2{
+            color: maroon;
+            font-size: 50px;
+            font-style: oblique;
+            font-family: arial;
+            padding: 0px;
+            
+            margin-left: 80px;
+
+
+        }
+        .olive3{
+            color: maroon;
+            font-size: 50px;
+            font-style: oblique;
+            font-family: arial;
+            padding: 0px;
+            
+            margin-left: 80px;
+
+
+
+        }
+        #img-box1 {
+            overflow: hidden;
+            float: inline-start;
+            height: 800px;
+            width: 600px;
+            
+            
+        }
+        #img-box2 {
+            overflow: hidden;
+            float: right;
+            height: 800px;
+            width: 600px;
+
+        }
+        
+        .chair{
+            float: left;
+            padding: 20px;
+            padding-right: 10px;
+            margin-left: 30px;
+            height: 800px;
+            width: 600px;
+            transition:all ease-in-out 0.5s;
+            width: 100%;
+            
+    
+        }
+        .chair:hover{
+            transform: scale(1.5);
+        }
+        .hall{
+            float: center;
+            padding: 20px;
+            margin-top: 10px;
+            height: 800px;
+            margin-left: 100px;
+            transition: all ease-in-out 0.5s;
+            width: 600px;
+            width: 100%;
+        }
+        .hall:hover{
+            transform: scale(1.5);
+        }
+        .rooms{
+            padding: 30px;
+
+            margin-top: 70px;
+            margin-left: 300px;
+            margin-right: 20px;
+            color: maroon;
+            font-family: arial;
+            font-size: 15px;
+            font-style: italic;
+        }
+        #img-box{height:500px;width:500px;overflow:hidden;margin:50px auto;}
+        #img-box img{max-width:100%;transition:all ease 1s;}
+        #img-box:hover>img{transform:scale(1.5)}
+        .picnic{
+            color:maroon;
+            font-style: oblique;
+            font-family: arial;
+            font-size: 50px;
+            padding: 30px;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        .you{
+            margin-left: 110px;
+            margin-top: 90px;
+        }
+        .owl{
+              background-image: url(/home/urvy/images2/kseniya-lapteva-GP2sJoqnuXI-unsplash.jpg);
+              height: 200px;
+              width: 2000pxpx;
+              background-size: 900px;
+              padding: 20px;
+              margin-top: 110px;
+              
+
+        }
+        .food{
+            color: white;
+font-size: 30px;
+        font-style: italic;
+        font-family: arial;
+        padding: 20px;
+        text-align: center;
+
+
+            
+        }
+        .last
+        {
+            color: white;
+            font: larger;
+            font-weight: bolder;
+            font-style: oblique;
+            font-size: 20px;
+        }
+        .pen{
+            padding: 15px;
+            
+            box-sizing: content-box;
+            border-radius: 0px;
+            text-align: center;
+            background-image: url(/home/urvy/images2/kseniya-lapteva-GP2sJoqnuXI-unsplash.jpg);
+            background-size: 90px;
+            margin-top: 1000px;
+        }
+        .fan{
+            float: right;
+            color: white;
+            font-size: 15px;
+            font-style: oblique;
+            padding: 15px;
+            font-family: arial;
+        }
+        .design{
+            float: left;
+            color: white;
+            font-size: 20px;
+            padding: 15px;
+            font-style: italic;
+            font-family: arial;
+
+        }
+    
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <nav>
+        <a class="ant" href="/">Menu</a>
+        <a class ="gigi" href="/">Contact</a>
+        <a  class="gigi" href="/">English</a>
+        <div id="sidebar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+
+
+        </div>
+        
+        </nav>
+        <hr>
+        <h1 class = "jug"> 
+            LA MAMOUNIA
+        </h1>
+        <h2 class="run">
+            MARRAKECH
+        </h2>
+        <h1 class="egg">
+            WELCOME!
+        </h1>
+        
+
+    </div>
+    <div>
+    <img class="man"src="/home/urvy/images2/roberto-nickson-edyjoW4GDb8-unsplash.jpg" alt="">
+    <img class="man" src="/home/urvy/images2/szabolcs-varnai-qYs1QQHPO0A-unsplash.jpg" alt="">
+    <h1 class="hen"> Recognition</h1>
+    <h2 class="yo"> For which we thank our guests and our people.</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <h2 class="key"> 
+        La Mamounia was voted “Best Hotel” in the Middle East and Africa in 2018, by the prestigious magazine Condé Nast Traveller.
+        
+        
+    </h2>
+    <br>
+    
+    <h3 class="key">  2020 LA Mamounia  revamped: Entirely redesigned, the Palace restaurants welcomed two distinguished Chefs – Jean-Georges Vongerichten and Pierre Hermé – whose creations are now served on every menu at La Mamounia. </h3>
+    
+    <br>
+    
+    <h4 class="key">
+        As a veritable sanctuary dedicated to beauty and wellness, the Spa at La Mamounia was awarded the title of “Best Spa” for 5 successive years (2010 to 2015) by the prestigious American magazine Spa Finder.
+
+
+    </h4>
+    <br>
+    <h5 class="key"> 
+        
+        
+        
+        In memory of Winston Churchill, La Mamounia organised an exhibition of his paintings, revealing Churchill’s works for the first time ever in Morocco (most of them had never left England) alongside paintings from the Moroccan artist Hassan El Glaoui.</h5>
+    </div>
+    <br>
+    <h1 class="olive1">
+        The Rooms
+        </h1>
+        <h1 class="olive2" >
+        and Suites Of </h1>
+<h1 class="olive3">
+        La Mamounia Palace
+    </h1>
+    <div id="img-box1">
+        <img class="chair"src="/home/urvy/images2/nicola-nuttall-c9qYQSvhezg-unsplash(1).jpg" alt=""></div>
+        <div id="img-box2">
+
+        <img class="hall" src="/home/urvy/images2/jennifer-latuperisa-andresen-Cj7a21nHLyo-unsplash.jpg" alt=""> </div>
+        <h1 class="rooms"> 
+
+            The journey begins in the corridors of La Mamounia, which magically reproduce the Medina’s narrow streets. Behind the characteristic wooden doors that protect our guests privacy lie 135 rooms, 71 suites and 3 riads, where the quintessence of Moroccan craftsmanship is expressed in all its splendour, alongside impeccable contemporary decoration.
+            </h1>
+
+    </div>
+    <div id="img-box"> <img src="/home/urvy/images2/carlotta-segna-G6BcdqYctm8-unsplash.jpg" alt=""></div>
+
+    <br>
+    <br>
+    <h1 class="picnic">Relax.Replenish.Rejuvenate.</h1>
+    <video  class="you"controls height="800px" width="1600px" loop autoplay muted >
+         <source src ="/home/urvy/images2/La Mamounia Overview - 2018-SFoeZ3kjqo0.mp4" type="video/mp4">
+
+
+    </video>
+<div class="owl">
+    <h1 class="food">True to its unique identity and fuelled by a strong culture of luxury and service, La Mamounia has consistently renewed itself with elegance and grace.</h1>
+</div>
+    <div class="pen">
+        <a class="fan" href="/">Board of directors</a>
+            <a class="fan" href="/">Donate</a>
+            <a class="fan" href="/">About us</a>
+            <a class="fan" href="/">Covid-19 safety measures</a>
+            <a class="design" href="/">Facebook</a>
+            <a class="design" href="/">whatsapp</a>
+            <a class ="design" href="/">Instagram</a>
+            <p class="last">
+                Since 1923
+            </p>
+
+    </div>
+</body>
+</html>
