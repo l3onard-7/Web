@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(255, 255, 255);
+   }       
+   *{
+       font-family:lato;
+   }       
+   #def{
+                  
+   background-image: url('https://wallpapercave.com/wp/wp4491173.jpg');
+   background-size: 70%;
+   background-repeat: no-repeat;
+   height: 50%;
+   width: 100%;
+   position:absolute;
+   top: 0%;
+   left:0%;
+
+   }
+   
+   
+   ul {
+       list-style-type:none;
+       margin:0;
+       padding: 0;
+     overflow: visible;
+     background-color: rgb(46, 46, 46);
+     border-radius: 5%;
+    position:fixed;
+     width: 100%;
+     z-index: 1;
+   }
+   
+   
+     a{
+     display: block;
+     color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     float: right;
+     font-size: 25px;
+   
+    
+   }
+   .nav{
+       width: 100%;
+       position: fixed;
+       opacity: 0.9;
+   }
+   
+   
+   li :hover {
+     background-color: rgb(0, 0, 0);
+     
+   }
+   #bristol{
+       background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/1d/4c/e7/74/exterior.jpg');
+       background-repeat: no-repeat;
+       width:500px ;
+       height:100%;
+       border-radius: 200px;
+   }
+   #mamaounia{
+       background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/1c/b3/2a/7c/exterior-view.jpg');
+       background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 200px;
+      border-radius: 200px;
+      
+   }
+   #okura{
+       background-image: url('https://s-ec.bstatic.com/images/hotel/max1024x768/858/85884684.jpg');
+       background-repeat: no-repeat;
+       background-size: 100%;
+       border-radius: 200px;
+   }
+   #raffles{
+       background-image: url('https://www.raffles.com/assets/0/72/651/652/1690/6b33085e-90ea-4c70-9b7e-d46c7f879519.jpg');
+       background-repeat: no-repeat;
+       background-size: 100%;
+       border-radius: 200px;
+   }
+   #plaza{
+    background-image: url('https://pix10.agoda.net/hotelImages/6654656/0/85014d412db09ab04180ed91e732ca42.jpg?ca=23&ce=0&s=1024x768');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 200px;
+}
+#doha{
+  background-image: url('https://cache.marriott.com/marriottassets/marriott/DOHXR/dohxr-exterior-8842-hor-wide.jpg?interpolation=progressive-bilinear&downsize=1440px:*');
+  background-repeat: no-repeat;
+  background-size: 105%;
+  padding-left: 5%;
+  border-radius: 200px;
+}
+#claridges{
+  background-image: url('https://www.arabianbusiness.com/cloud/2021/09/14/q1SkkrzW-99600607-2.jpg');
+  background-repeat: no-repeat;
+ background-size: 100%;
+ border-radius: 200px;
+}
+#maldives{
+  background-image: url('https://cdnprs.wisconsin.dev/wp-content/uploads/2019/11/mlejs-entrance-0012-hor-clsc.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 200px;
+}
+   
+   
+   .so {
+     width: 3%;
+     
+     z-index: 1;
+   }
+   
+   .so a {
+     text-align: center;
+     padding: 10%;
+     transition: all 0.3s ease;
+   font-size: 0%;
+   }
+   
+   .so a:hover {
+     background-color: rgb(53, 18, 18);
+   }
+    p{
+       
+       font-size: 50px;
+       color: ivory;
+       margin: 0px;
+       position: absolute;
+       left: 10px;
+       top: 10px;
+   } 
+   .flex-container {
+    display: flex;
+    height: 390px;
+    width: 100%;
+    background-color: #f1f1f1;
+    transition: 1s;
+    text-align:left;
+    position:absolute;
+    border: 10px;
+    border-radius: 30px;
+    box-shadow:  1px 1px 150px rgb(131, 131, 131)
+  }
+  .flex-container p{
+  position:relative;
+  left:-65%;
+  }
+  
+  .flex-container > div {
+    
+    color: white;
+    width: 500px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+    transition: 0.7s;
+  }
+  .flex-container > div:hover{
+    opacity: 0.7;
+  }
+  .flex-container:hover{
+    background-color: rgba(255, 239, 170, 0.938);
+    color: black;
+  }
+
+  
