@@ -1,73 +1,76 @@
+body{
+  overflow-y: auto;
+  overflow-x: hidden;
+background-image: url("https://media.istockphoto.com/vectors/abstract-gray-vector-background-vector-id1280142071?b=1&k=20&m=1280142071&s=612x612&w=0&h=ZtKYMQmovV_0XNnlB1OA0k_WO1GHvsEH8_vJAnNV-lo=");
+background-size: 100%;
+z-index: -5;
 
-ul {
-    list-style-type:none;
-    margin:0;
-  overflow: visible;
-  background-color: rgb(0, 0, 0);
- position:fixed;
- right: 0%;
-  width: 100%;
-  z-index: 1;
-  top: 0%;
 }
-
-
-  a{
-  display: block;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 1%;
-  text-decoration: none;
-  padding-right: 2%;
-  float: right;
-  font-family: 'Lato', sans-serif;
-  font-size: 150%;
- 
- 
-}
-.nav{
-    width: 100%;
-    position: fixed;
-    margin: 0;
-    
-}
-
-li :hover {
-  background-color: rgba(255, 255, 255, 0.548);
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-}
-.so {
-  width: 3%;
+.diwali {
+      display: flex;
+      flex-direction: row;
+  position:absolute;
+  bottom: -550%; 
+  width: 15%;
+  height: 9%;
+  left:41% ;
   
-  z-index: 1;
 }
-
-.so a {
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
   text-align: center;
-  padding: 10%;
-  transition: all 0.3s ease;
-font-size: 0%;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
-.so a:hover {
-  background-color: rgb(255, 255, 255);
+.fa:hover {
+    opacity: 0.7;
+}
+.be{
+
+  width: 100%;
+  height: 90px;
+  position:absolute;
+  bottom: -520%; 
+  left:0% ;
+ 
+  color: black;
 }
 
-    
-    H{
-      color: rgb(43, 43, 43);
-      font-family: 'Lato', sans-serif;
-       font-size: 200%;
+.ju{
+  color: rgb(0, 0, 0);  
+  font-size: 20px;
+  position:absolute;
+  bottom: -302%; 
+  left:43% ;
+  
+  font-family: 'Lato', sans-serif;
+          gap: 1%;
+}
 
-    }
-  @media only screen{
+.ju:hover{
+  background-color: silver;
+}
+.ju1{
+  color:rgb(0, 0, 0);
+  bottom: -300%; 
+  left:49% ;
+  
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+          gap: 1%;
+          position:absolute;
+  
+}
+
+.ju1:hover{
+  background-color: silver;
+}
+
+
     
-  }
-    p{
-        color: rgb(43, 43, 43);
-        font-family: 'Lato', sans-serif;
-         font-size: 230%;
-       
-    }
+
+
  

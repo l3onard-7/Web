@@ -21,183 +21,158 @@
     
 }
 ul {
-    list-style-type: none;
-    position:absolute;
-    left:0;
-    top:-20px;
-    width: 0px;
-    
-    z-index:1;
-    height:500px;
-    
-
-  }
+  list-style-type: none;
+  position:absolute;
+  left:0;
+  top:-20px;
+  width: 0px;
   
-  li a {
-      
-    display: block;
-    color: #000;
-    padding: 50px 0px;
-    text-decoration: none;
-    background-color:black;
-    color:white;
-    z-index:1;
-    transition:2s;
-
-   
-    
-  }
+  z-index:1;
+  height:500px;
   
 
-  li a:hover {
-    background-color: white;
-    color:white;
-   z-index:1;
-   font-size:30px;
-  }
+}
+
+li a {
+    
+  display: block;
+  color: #000;
+  padding: 50px 0px;
+  text-decoration: none;
+  background-color:black;
+  color:white;
+  z-index:1;
+  transition:2s;
+
+ 
+  
+}
+
+
+li a:hover {
+  background-color: white;
+  color:white;
+ z-index:1;
+ font-size:30px;
+}
 body{
-  overflow-y: auto;
-  overflow-x: auto;
-  background: rgb(109, 109, 109);
+overflow-y: auto;
+overflow-x: auto;
+background: rgb(109, 109, 109);
 background: linear-gradient(180deg, rgba(255,135,0,1) 0%, rgba(247,178,101,1) 34%, rgba(255,255,255,1) 91%)no-repeat;
 }
 .map {
-  display: flex;
-  justify-content:right;
-  height: 500px;
-  width: 90%;
-  position: absolute;
-  top:800px;
-  left:5%;
-  box-shadow:  3px 3px 50px black;
+display: flex;
+justify-content:right;
+height: 500px;
+width: 90%;
+position: absolute;
+top:800px;
+left:5%;
+box-shadow:  3px 3px 50px black;
+font-size: 23px;
 
 }
 
-.map >div { 
-  width: 500px;
-  height: 400px;
-  position: relative;
-  top:10%;
-  right: 5%;
-  }
-  .cuisinemain{
-    display: flex;
-    position: absolute;
-    top: 3600px;
-    height: 400px;
-    width: 100%;
-    left: 0%;
-    box-shadow:  3px 3px 25px black;
-    filter: brightness(80%);
-    
-  }
-  .rooms {
-    position: absolute;
-    top:2100px;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: DodgerBlue;
-    width: 100%;
-    height: 800px;
-  }
+
+.map >div {
+
+
+width: 500px;
+height: 400px;
+position: relative;
+top:10%;
+right: 5%;
+}
+.map > div:hover{
+  opacity: 0.5;
+}
+.cuisinemain{
+  display: flex;
+  position: absolute;
+  top: 3000px;
+  height: 500px;
+  width: 100%;
+  left: 0%;
   
-  .rooms > div {
-    gap: 2%;
-    position: relative;
-    left: 5%;
-    width: 505px;
-   border: 10px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 30px;
-   flex-basis: 30%;
-   overflow: hidden;  
-  }
-  .roommain{
-    display: flex;
-    position: absolute;
-    top: 1400px;
-    width: 100%;
-    background-color: rgb(255, 30, 30);
-    left: 0%;
-  }
+}
+
+.rooms {
+  position: absolute;
+  top:2000px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 800px;
+}
+
+.rooms > div {
  
-  img[target="zoom"]{
-    width:100%;
-    height: fit-content;
-    transition: all ease-in-out 0.5s;
-  }
-  img[target="zoom"]:hover{
-    transform: scale(1.2);
-  }
-  .cuisines {
-    
-    position: absolute;
-    top:4400px;
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 500px;
-    
-  }
+  position: relative;
+  left: 4%;
+  width: 505px;
+ top: 100px;
+  text-align: center;
+ flex-basis:30%;
+ overflow: hidden;  
+ height: 300px;
+ margin: -1px 5px;
+}
+.roommain{
+  display: flex;
+  position: absolute;
+  top: 1400px;
+  width: 100%;
+  left: 0%;
+}
+
+
+img[target="zoom"]{
+  width:100%;
+  height: 300px;
+  transition: all ease-in-out 0.5s;
+}
+img[target="zoom"]:hover{
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+.cuisines {
   
-  .cuisines > div {
-    background-color: #f1f1f1;
-    width: 100%;
-    height: fit-content;
-    padding: 100px;
-    flex-basis: 500px;
-    font-size: 30px;
-    margin: 10px;
-    box-shadow:  3px 3px 25px black;
+  position: absolute;
+  top:3700px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 400px;
 
-  }
-  img{
-    width:100%;
-    height: 550px;
-    box-shadow:  1px 1px 30px black;
-    filter: brightness(100%);
-    
-  }
-  /*<div class = "so" style = "position: fixed;top: 16%;left: 96%;">
-  <a href="https://icons8.com/icon/118487/facebook"></a>
-  <a   href  = "https://icons8.com/icon/17904/google"> <img
-       src   = "https://img.icons8.com/ios/50/000000/instagram-new.png" /></a>
-  <a   href  = "https://icons8.com/icon/17904/google"><img src = "https://img.icons8.com/ios/50/000000/twitter.png" />
-      </a>
-  </div>*/
-  /*ul {
-    list-style-type: none;
-    position:absolute;
-    left:0;
-    top:-20px;
-    width: 0px;
-    
-    z-index:1;
-    height:500px;
-    
+}
 
-  }
+.cuisines > div {
   
-  li a {
-      
-    display: block;
-    color: #000;
-    padding: 50px 0px;
-    text-decoration: none;
-    background-color:black;
-    color:white;
-    z-index:1;
-    transition:2s;
+  width: 100%;
+  height: 400px;
+  flex-basis: 500px;
+top: 0;
+position: relative;
+margin: -1px 5px;
+}
+img{
+  width:100%;
+  height: 500px;
+  box-shadow: inset 0px 0px 150px black;
+}
+img[target="cui"]{
+  width: 100%;
+  height: 400px;
+  transition: all ease-in-out 0.5s;
 
-   
-    
-  }
-  
+}
+img[target="cui"]:hover{
+  opacity: 0.8;
+  transform: scale(0.9);
 
-  li a:hover {
-    background-color: white;
-    color:white;
-   z-index:1;
-   font-size:30px;
-  }
+}
+.cuisinemain p:hover{
+  color: #000;
+}
